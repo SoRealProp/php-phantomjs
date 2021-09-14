@@ -65,7 +65,7 @@ class Engine
      */
     public function __construct()
     {
-        $this->path    = 'bin/phantomjs';
+        $this->path = 'bin/phantomjs';
         $this->options = array();
 
         $this->debug = false;

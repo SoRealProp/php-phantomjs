@@ -9,13 +9,14 @@
 namespace JonnyW\PhantomJs\Test;
 
 use JonnyW\PhantomJs\DependencyInjection\ServiceContainer;
+use PHPUnit\Framework\TestCase as Example;
 
 /**
  * PHP PhantomJs
  *
  * @author Jon Wenmoth <contact@jonnyw.me>
  */
-class TestCase extends \PHPUnit_Framework_TestCase
+class TestCase extends Example
 {
     /**
      * Get dependency injection container.
